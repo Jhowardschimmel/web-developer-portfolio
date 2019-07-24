@@ -7,7 +7,16 @@ body {
   text-align: center;
 }
 
-img {
+#name {
+  display: none;
+}
+
+#title {
+  display: none;
+}
+
+#portrait {
+  display: none;
   object-fit: cover;
   border-radius: 50%;
   width: 320px;
@@ -15,4 +24,5 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }

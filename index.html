@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jesse Schimmel</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
@@ -13,11 +14,26 @@
   </head>
   <body>
     <div id="name-block">
+      <p id="intro"></p>
       <p id="name">Jesse Schimmel</p>
       <p id="title">Full-Stack Web Developer</p>
     </div>
+    <!-- <script>
+        var i = 0;
+        var txt = 'Lorem ipsum dummy text blabla.';
+        var speed = 50;
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("intro").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        typeWriter();
+        </script> -->
 
-    <img src="assets/images/portrait.jpeg" />
+    <img id="portrait" src="assets/images/portrait.jpeg" style="display: none" />
 
     <script src="assets/javascript/main.js"></script>
   </body>
